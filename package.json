@@ -1,21 +1,23 @@
 {
-  "devDependencies": {
-    "eslint": "8.57.1",
-    "eslint-config-prettier": "10.0.1",
-    "eslint-plugin-prettier": "5.2.3",
-    "lint-staged": "15.4.3",
-    "prettier": "3.5.2"
-  },
+  "name": "hotelterraza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
-"lint-staged": {
-  "**/*.js": [
-    "eslint --fix",
-    "eslint"
-  ],
-  "**/*.css": "stylelint --fix",
-  "**/*.html": "htmlhint"
-}
-
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.2",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0"
+  }
 }
