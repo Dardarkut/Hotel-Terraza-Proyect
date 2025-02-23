@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-echo "#!/bin/sh
-. \"\$(dirname \"\$0\")/h\"
-
-npx eslint . && npx lint-staged
-" > .husky/pre-push
