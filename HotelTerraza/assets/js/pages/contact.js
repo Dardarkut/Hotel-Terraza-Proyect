@@ -8,7 +8,7 @@ numbers.forEach((num) => {
   console.log(num);
 });
 
-let person = { firstName: 'John', lastName: "Doe    " , age: 30 };
+let person = { firstName: 'John', lastName: "Doe     " , age: 30 };
 
 function add(a, b  ) {
   return a + b;

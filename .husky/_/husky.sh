@@ -1,9 +1,15 @@
-echo "husky - DEPRECATED
-
-Please remove the following two lines from $0:
-
 #!/usr/bin/env sh
-. \"\$(dirname -- \"\$0\")/_/husky.sh\"
+if [ -z "$HUSKY" ]; then
+  echo "husky - not running inside a Git hook"
+  exit 0
+fi
 
-They WILL FAIL in v10.0.0
-"
+HOOK_NAME="$(basename "$0")"
+HOOK_SCRIPT="$(dirname "$0")/../$HOOK_NAME"
+
+if [ -f "$HOOK_SCRIPT" ]; then
+  exec sh "$HOOK_SCRIPT" "$@"
+else
+  echo "husky - hook script not found: $HOOK_SCRIPT"
+  exit 0
+fi
