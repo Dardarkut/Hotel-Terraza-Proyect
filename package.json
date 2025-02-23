@@ -10,9 +10,13 @@
   "scripts": {
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "**/*.js": "eslint --fix",
-    "**/*.css": "stylelint --fix",
-    "**/*.html": "htmlhint"
-  }
+"lint-staged": {
+  "**/*.js": [
+    "eslint --fix",
+    "eslint"
+  ],
+  "**/*.css": "stylelint --fix",
+  "**/*.html": "htmlhint"
+}
+
 }
