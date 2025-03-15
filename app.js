@@ -1,25 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
-    fetch('pages/home.html')
-        .then(response => response.text())
-        .then(data => document.getElementById("container").innerHTML = data);
-    
-    fetch('pages/rooms.html')
-        .then(response => response.text())
-        .then(data => document.getElementById("container").innerHTML = data);
+document.addEventListener('DOMContentLoaded', () => {
+  loadPage('pages/home.html');
 
-    fetch('pages/services.html')
-        .then(response => response.text())
-        .then(data => document.getElementById("container").innerHTML = data);
-
-    fetch('pages/contact.html')
-        .then(response => response.text())
-        .then(data => document.getElementById("container").innerHTML = data);
-    
-    fetch('pages/location.html')
-        .then(response => response.text())
-        .then(data => document.getElementById("container").innerHTML = data);
-
-        fetch('pages/dashboard.html')
-        .then(response => response.text())
-        .then(data => document.getElementById("container").innerHTML = data);
+  document.addEventListener('click', function (event) {
+    if (event.target.matches('.nav-link')) {
+      event.preventDefault();
+      const page = event.target.getAttribute('href');
+      if (page) {
+        loadPage(`pages/${page}`);
+      }
+    }
+  });
 });
+
+function loadPage(page) {
+  fetch(page)
+    .then((response) => {
+      if (!response.ok)
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      return response.text();
+    })
+    .then((data) => (document.getElementById('container').innerHTML = data))
+    .catch((error) => console.error('Error loading page:', error));
+}
