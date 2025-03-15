@@ -4,5 +4,10 @@
 @import url("pages/rooms.css");
 @import url("pages/services.css");
 @import url("pages/location.css");
+
+@import url("components/footer.css");
+@import url("components/header.css");
+@import url("components/navbar.css");
+
 @import url("bootstrap.css");
 @import url("responsive.css");
