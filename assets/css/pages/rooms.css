@@ -1,54 +1,49 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
 /* Estilos para el encabezado */
 header {
-    background: linear-gradient(to right, #007bff, #0056b3);
-    color: white;
-    padding: 20px 0;
+  color: white;
 }
 
 /* Estilos de la sección principal */
-h1, h2 {
-    font-weight: bold;
-}
-
-p {
-    color: #555;
+h1,
+h2 {
+  font-weight: bold;
 }
 
 /* Estilos para las tarjetas de habitaciones */
 .card {
-    border: none;
-    transition: transform 0.3s ease-in-out;
+  border: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .card img {
-    height: 200px;
-    object-fit: cover;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .carousel-item img {
-    width: 100%;
-    height: 500px; 
-    object-fit: contain;
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
 }
 .btn-primary {
-    background-color: #007bff;
-    border: none;
+  background-color: #007bff;
+  border: none;
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
