@@ -1,0 +1,46 @@
+/* Reset */
+*{
+    list-style: none;
+
+}
+/* Seccion Formulario */
+.section-form{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* Contenedor de Formulario */
+.form-container{
+    display: flex;
+    justify-content: flex-start ;
+    margin-top: 150px;
+    margin-left: 120px;
+    
+}
+/* Formulario */
+form{
+    width: 800px;
+}
+/* Contenedor del Mapa */
+.maps-container{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Contendor del redes sociales */
+.social-link{
+     margin-top: 100px;
+     width: 500px;
+     margin-left: 100px ;
+
+}
+/* Lista de Redes Sociales */
+.items-social{
+    display: flex;
+   margin-top: 5px;
+}
+/* Elemento redes sociales */
+.items-social li{
+    margin: 5px;
+}
