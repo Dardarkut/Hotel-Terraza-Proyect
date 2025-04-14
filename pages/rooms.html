@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rooms hotel Terraza</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>Rooms Hotel Terraza</title>
     <link rel="stylesheet" href="rooms.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
     <header class="bg-primary text-white text-center py-3">
@@ -19,42 +20,10 @@
             <p>Selecciona la mejor opción para tu estadía con nosotros.</p>
         </section>
         
-        <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
-            <article class="col">
-                <div class="card h-100">
-                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/202436250.jpg?k=fc6d8146427eae36570e6fe528aec488cd61d5c5fa33efeaf0c77835d58bbb50&o=&hp=1" class="card-img-top" alt="Habitación Estándar">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Habitación Estándar</h5>
-                        <p class="card-text flex-grow-1">Cómoda habitación con todas las comodidades esenciales. Precio: $80/noche</p>
-                        <a href="standarRoom.html" class="btn btn-primary mt-auto">Más información</a>
-                    </div>
-                </div>
-            </article>
-            
-            <article class="col">
-                <div class="card h-100">
-                    <img src="https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/26094527/pullman_miraflores_SUITE-PRESIDENCIAL-370x276.jpg" class="card-img-top" alt="Suite">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Suite</h5>
-                        <p class="card-text flex-grow-1">Habitación amplia con lujos adicionales y vista panorámica. Precio: $150/noche.</p>
-                        <a href="suiteRoom.html" class="btn btn-primary mt-auto">Más información</a>
-                    </div>
-                </div>
-            </article>
-            
-            <article class="col">
-                <div class="card h-100">
-                    <img src="https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0932800001658266020.jpg" class="card-img-top" alt="Habitación Familiar">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Habitación Familiar</h5>
-                        <p class="card-text flex-grow-1">Ideal para familias, con varias camas y espacios amplios. Precio: $130/noche.</p>
-                        <a href="familiarRoom.html" class="btn btn-primary mt-auto">Más información</a>
-                    </div>
-                </div>
-            </article>
-        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="room-list"></div>
     </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="rooms.js"></script>
+
 </body>
 </html>
