@@ -1,0 +1,104 @@
+.body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden; /* Evita el scroll si la imagen es más grande que la pantalla */
+
+
+   
+    
+}
+body::before {
+    content: "";
+    position: fixed; /* Posicionamos la imagen como fondo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* 100% de la altura de la pantalla */
+    background-image: url('../../img/bg-home.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Esto asegura que la imagen esté detrás del contenido */
+}
+
+.container-bar{
+    position: relative; /* Necesario para que .descrip-serv se posicione correctamente */
+    min-height: 80vh; /* Asegura que el contenedor ocupe todo el alto del viewport */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px; /* Un poco de espacio alrededor si se necesita */
+    box-sizing: border-box;
+ 
+
+    
+    
+}
+.bebidas img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    max-width: 400px; /* Establece un ancho máximo para evitar que se agrande demasiado */
+    height: 100%;  /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px #000000;
+    object-fit: cover; /* Asegura que la imagen se ajuste correctamente dentro de su contenedor */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .bebidas img {
+        max-width: 100%; /* En pantallas pequeñas, las imágenes ocuparán todo el ancho disponible */
+    }
+
+    .list-bar li {
+        width: 100%; /* Ajusta los elementos de la lista para que ocupen todo el ancho */
+        height: auto; /* Permite que la altura se ajuste al contenido */
+    }
+}
+
+.menu img:hover{
+    transform: translate(-10px, -20px);
+    transition: .3s ease-in-out;
+
+    
+}
+.list-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 20px; /* Un poco de espacio alrededor si se necesita */
+    box-sizing: border-box;
+    
+    
+}
+.list-bar li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    font-size: 15px;
+    padding: 2px;
+
+}
