@@ -13,31 +13,31 @@
 <body>
      <section class="section-form">
         <div class="form-container">
-             <form   action="" method="get" autocomplete="off" class="row g-3">
+             <form id="miFormulario"  amethod="get" autocomplete="off" class="row g-3">
                 <h1>Contacto</h1>
                 <!--name -->
                 <div class="col-md-6">
                 <label for="inputNombre" class="form-label">Nombre</label>
-                <input type="text" name="nombre" class="form-control" id="inputNombre" placeholder="Nombre">
+                <input type="text" name="nombre" class="form-control" id="nombre"placeholder="Nombre">
                 </div>
                 <!--Last Name -->
                 <div class="col-md-6">
                 <label for="inputApellidos" class="form-label">Apellidos</label>
-                <input type="text"  name="Apellidos" class="form-control" id="inputApellidos" placeholder="Apellidos">
+                <input type="text"  name="apellidos" class="form-control" id="apellidos" placeholder="Apellidos">
                 </div>
                 <!--Email-->
                 <div class="col-12">
                 <label for="inputEmail" class="form-label">Email</label>
-                <input type="email"  name="correo"   class="form-control" id="inputEmail" placeholder="Dirección Correo">
+                <input type="email"  name="correo"   class="form-control" id="correo" placeholder="Dirección Correo">
                 </div>
                 <!--Subject-->
                 <div class="col-12">
                 <label for="inputAsunto" class="form-label">Asunto</label>
-                <input type="text" name="asunto"  class="form-control" id="inputAsunto" placeholder="Asunto">
+                <input type="text" name="asunto"  class="form-control" id="asunto"placeholder="Asunto">
                 </div>
                 <!--Textareas-->
                 <div class="form-floating">
-                <textarea class="form-control"  name="texarea"  required placeholder="Mensaje" id="Textarea" style="height: 100px"></textarea>
+                <textarea class="form-control"  name="texArea"placeholder="Mensaje" id="texarea" style="height: 100px"></textarea>
                 <label for="Textarea">Mensaje</label>
                 </div>
                 <!--Button-->
@@ -86,4 +86,9 @@
 </section>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="../assets/js/pages/contact.js" ></script>
+
 </html>
