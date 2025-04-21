@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head></head>
+  <body>
+    <div>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="">Welcome to Hotel Terraza</h1>
+          <p class="">Experience the Ultimate Beachfront Getaway</p>
+          <a href="../pages/contact.html" class="btn btn-primary btn-lg"
+            >Reservation</a
+          >
+        </div>
+      </section>
+
+      <section class="container feature">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="../assets/img/bg-home.jpg" alt="Oceanfront Rooms" />
+            <h3>Oceanfront Rooms</h3>
+            <p>
+              Enjoy breathtaking Enjoy breathtaking Enjoy breathtaking Enjoy
+              breathtaking Enjoy breathtaking.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="../assets/img/bg-home.jpg" alt="Beachfront Restaurants" />
+            <h3>Beachfront Restaurants</h3>
+            <p>
+              Enjoy breathtaking Enjoy breathtaking Enjoy breathtaking Enjoy
+              breathtaking Enjoy breathtaking
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="../assets/img/bg-home.jpg" alt="Private Beach Access" />
+            <h3>Private Beach Access</h3>
+            <p>
+              Enjoy breathtaking Enjoy breathtaking Enjoy breathtaking Enjoy
+              breathtaking Enjoy breathtaking
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="reservation" class="container feature">
+        <div class="reservation-form">
+          <h2>Make a Reservation</h2>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="checkIn">Check In</label>
+                <input type="date" class="form-control" id="checkIn" required />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="checkOut">Check Out</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="checkOut"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="adults">Adults</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="adults"
+                  min="1"
+                  value="1"
+                  required
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="children">Children</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="children"
+                  min="0"
+                  value="0"
+                />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Check Availability
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <script src="../assets/js/utils/header-footer.js"></script>
+</html>
