@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Habitación Estándar",
+      "description": "Cómoda habitación con todas las comodidades esenciales.",
+      "price": "$80/noche",
+      "imageUrl": "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1147/miniaturas/habitacion-standard-del-hotel-lido-di-venezia.jpg"
+    },
+    { "id": 2,
+    "name": "Habitación Estándar",
+    "description": "Cómoda habitación con todas las comodidades esenciales.",
+    "price": "$80/noche",
+    "images": [
+        "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1147/miniaturas/habitacion-standard-del-hotel-lido-di-venezia.jpg",
+        "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1255/miniaturas/standard-room-hotel-venice-lido.jpg",
+        "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1163/miniaturas/habitacion-standard-del-hotel-lido-di-venezia.jpg"
+        ],
+    "amenities": ["wifi", "parqueo", "desayuno"]
+    } ,
+    {
+      "id": 3,
+      "name": "Suite",
+      "description": "Habitación amplia con lujos adicionales y vista panorámica.",
+      "price": "$150/noche",
+      "imageUrl": "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/26094527/pullman_miraflores_SUITE-PRESIDENCIAL-370x276.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Suite",
+        "description": "Habitación amplia con lujos adicionales y vista panorámica.",
+        "price": "$150/noche",
+        "images": [
+      "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/26094527/pullman_miraflores_SUITE-PRESIDENCIAL-370x276.jpg",
+      "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/29133105/DELUXE-QUEEN-BA%C3%91O.jpg",
+      "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/29133116/HABITACI%C3%93N-SUITE-EJECUTIVA.jpg"
+       ],
+    "amenities": ["wifi", "piscina", "cable", "comidas"]
+      },
+    {
+      "id": 5,
+      "name": "Habitación Familiar",
+      "description": "Ideal para familias, con varias camas y espacios amplios.",
+      "price": "$130/noche",
+      "imageUrl": "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0932800001658266020.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Habitación Familiar",
+        "description": "Ideal para familias, con varias camas y espacios amplios.",
+        "price": "$130/noche",
+        "images": [
+            "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0932800001658266020.jpg",
+            "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0140595001658265953.jpg",
+            "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0308772001658266100.jpg"
+          ],
+          "amenities": ["wifi", "parqueo", "comidas","cable","piscina"]
+      }
+  ]
+  
