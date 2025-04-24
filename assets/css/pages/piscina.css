@@ -1,0 +1,68 @@
+.body{
+    height: 100%;
+    width: 100%;
+
+}
+body::before {
+    content: "";
+    position: fixed; /* Posicionamos la imagen como fondo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* 100% de la altura de la pantalla */
+    background-image: url('../../img/bg-home.jpg'); /* Asegúrate de que la ruta sea correcta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Esto asegura que la imagen esté detrás del contenido */
+}
+
+.container-piscinas{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px; /* Un poco de espacio alrededor si se necesita */
+    box-sizing: border-box; 
+}
+.piscinas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px; /* Un poco de espacio alrededor si se necesita */
+    box-sizing: border-box;
+}
+
+.piscinas img {
+    width: 380px; /* La imagen ocupará el 100% del ancho de su contenedor */
+    max-width: 400px; /* Establece un ancho máximo para evitar que se agrande demasiado */
+    height: 260px;  /* Mantiene la proporción de la imagen */
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0px #000000;
+    object-fit: cover; /* Asegura que la imagen se ajuste correctamente dentro de su contenedor */
+}
+
+@media (max-width: 768px) {
+    .piscinas img {
+        max-width: 100%; /* En pantallas pequeñas, las imágenes ocuparán todo el ancho disponible */
+    }
+
+}
+
+.descrip-pisc{  
+    position: relative; /* Necesario para que .descrip-serv se posicione correctamente */
+    right: -25%;
+    height: 100%;
+    width: 800px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+    font-size: 20px;
+}
+
