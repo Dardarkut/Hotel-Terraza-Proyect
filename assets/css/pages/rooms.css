@@ -1,125 +1,91 @@
-
-/* Estilos generales */
-body {
+.rooms-page body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
 }
 
-header {
+.rooms-page header {
   background: linear-gradient(to right, #007bff, #0056b3);
   color: white;
   padding: 20px 0;
 }
 
-h1, h2 {
+.rooms-page h1,
+.rooms-page h2 {
   font-weight: bold;
 }
 
-main.container p {
+.rooms-page p {
+  color: #555;
+}
+
+.rooms-page main.container p {
   font-size: 1.1rem;
   color: #333;
   line-height: 1.6;
 }
-.card {
+
+.rooms-page .card {
   border: none;
   transition: transform 0.3s ease-in-out;
+  position: relative;
 }
 
-.card:hover {
+.rooms-page .card:hover {
   transform: scale(1.05);
 }
 
-.card img {
+.rooms-page .card img,
+.rooms-page .card-img-top {
   height: 200px;
   object-fit: cover;
 }
 
-.card-title {
+.rooms-page .card-title {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.carousel-item img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
-.btn-primary {
+.rooms-page .btn-primary {
   background-color: #007bff;
   border: none;
 }
 
-.btn-primary:hover {
+.rooms-page .btn-primary:hover {
   background-color: #0056b3;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+
+.rooms-page .icons i {
+  margin: 0 5px;
+  font-size: 1.2rem;
 }
 
-header {
-    background: linear-gradient(to right, #007bff, #0056b3);
-    color: white;
-    padding: 20px 0;
+.rooms-page .more-info {
+  display: none;
+  margin-top: 20px;
 }
 
-h1, h2 {
-    font-weight: bold;
+.room-detail h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
-p {
-    color: #555;
+.room-detail p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.card {
-    border: none;
-    transition: transform 0.3s ease-in-out;
+.room-detail .icons i {
+  margin: 0 5px;
+  font-size: 1.2rem;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.room-detail .carousel-item img {
+  height: 400px;
+  object-fit: cover;
 }
 
-.card img {
-    height: 200px;
-    object-fit: cover;
-}
-
-.card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
-}
-
-.more-info {
-    display: none;
-    margin-top: 20px;
-}
-
-
-.icons i {
-    margin: 0 5px;
-    font-size: 1.2rem; 
-}
-
-
-main.container p {
-    font-size: 1.1rem;
-    color: #333;
-    line-height: 1.6;
+.room-detail .btn-secondary {
+  margin-top: 1rem;
 }

@@ -37,7 +37,7 @@ function renderRooms(rooms) {
             const roomCard = document.createElement("div");
             roomCard.className = "col";
             roomCard.innerHTML = `
-                <div class="card h-100">
+                <div class="card h-100 position-relative">
                     <img src="${room.imageUrl || room.images?.[0]}" class="card-img-top" alt="${room.name}">
                     <div class="card-body">
                         <h5 class="card-title">${room.name}</h5>
@@ -48,6 +48,9 @@ function renderRooms(rooms) {
                                 ? `<div class="icons mb-3"><strong>Servicios:</strong> ${room.amenities.map(getIcon).join(" ")}</div>`
                                 : ""
                         }
+                    </div>
+                    <!-- Botón en la esquina inferior izquierda -->
+                    <div class="position-absolute start-0 bottom-0 m-3">
                         <a href="roomDetails.html" class="btn btn-primary" onclick="localStorage.setItem('selectedRoomId', ${room.id + 1})">Más información</a>
                     </div>
                 </div>
