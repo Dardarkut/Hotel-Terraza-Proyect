@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Habitación Estándar",
+    "description": "Habitación estándar con todas las comodidades esenciales para una estadía confortable y accesible.",
+    "price": "$80/noche",
+    "imageUrl": "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1147/miniaturas/habitacion-standard-del-hotel-lido-di-venezia.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Habitación Estándar",
+    "description": "Nuestra habitación estándar renovada cuenta con espacio adicional, decoración moderna y mobiliario de lujo. Además, ofrece desayuno, parqueo, servicio a la habitacion, jacuzzi y WiFi brindando el máximo confort en un ambiente elegante y relajante. Ideal para quienes viajan ligero.",
+    "price": "$80/noche",
+    "images": [
+      "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1147/miniaturas/habitacion-standard-del-hotel-lido-di-venezia.jpg",
+      "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1255/miniaturas/standard-room-hotel-venice-lido.jpg",
+      "https://www.hpanorama.com/es/imagenes/tipologias-de-habitaciones/6/1163/miniaturas/habitacion-standard-del-hotel-lido-di-venezia.jpg"
+    ],
+    "amenities": [
+      "desayuno",
+      "parqueo",
+      "room_service",
+      "jacuzzi",
+      "wifi"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Suite",
+    "description": "Habitación estándar con todas las comodidades y amenidades para una experiencia exclusiva.",
+    "price": "$150/noche",
+    "imageUrl": "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/26094527/pullman_miraflores_SUITE-PRESIDENCIAL-370x276.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Suite",
+    "description": "Descubre nuestra suite ejecutiva: un espacio amplio con jacuzzi privado, servicio a la habitación, vista al mar, acceso a spa, piscina, lounge VIP, bar y más. Ideal para quienes buscan tranquilidad, una escapada romantica o momento de tranquilidad VIP",
+    "price": "$150/noche",
+    "images": [
+      "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/26094527/pullman_miraflores_SUITE-PRESIDENCIAL-370x276.jpg",
+      "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/29133105/DELUXE-QUEEN-BAÑO.jpg",
+      "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/25/2022/08/29133116/HABITACIÓN-SUITE-EJECUTIVA.jpg"
+    ],
+    "amenities": [
+      "smart_tv",
+      "masaje",
+      "gimnasio",
+      "spa",
+      "cable",
+      "room_service",
+      "vista",
+      "piscina",
+      "jacuzzi",
+      "lounge_access",
+      "bata",
+      "champagne",
+      "comidas",
+      "bar",
+      "pantuflas",
+      "wifi"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Habitación Familiar",
+    "description": "La habitación familiar está diseñada para brindar comodidad a grandes y chicos. Cuenta con amplio espacio, camas múltiples, TV por cable, Wi-Fi y todas las facilidades para unas vacaciones inolvidables en familia.",
+    "price": "$130/noche",
+    "imageUrl": "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0932800001658266020.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Habitación Familiar",
+    "description": "Nuestra habitación familiar premium ofrece más espacio, decoración moderna, acceso a piscina, spa, gimnasio y una variedad de servicios diseñados para el bienestar de toda la familia. Ideal para una experiencia inolvidable y disfrutar las actividades en familia.",
+    "price": "$130/noche",
+    "images": [
+      "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0932800001658266020.jpg",
+      "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0140595001658265953.jpg",
+      "https://cdn.easy-rez.com/production/hotels/8700696094450c97c00b7f5c1e216f47/uploads/.rooms/0308772001658266100.jpg"
+    ],
+    "amenities": [
+      "cuna",
+      "masaje",
+      "desayuno",
+      "gimnasio",
+      "spa",
+      "cable",
+      "parqueo",
+      "room_service",
+      "piscina",
+      "jacuzzi",
+      "vista",
+      "tv",
+      "seguridad",
+      "comidas",
+      "espacio_extra",
+      "bar",
+      "wifi"
+    ]
+  }
+]
